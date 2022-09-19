@@ -1,7 +1,7 @@
-document.addEventListener('change', function(e) {
-  let element = document.getElementById('xAddRtcSel');
+document.addEventListener('change', function() {
+  const meetUrlCreateButtonElement = document.getElementById('xAddRtcSel');
 
-  if (element) {
-    element.click();
+  if (meetUrlCreateButtonElement) {
+    meetUrlCreateButtonElement.click();
   }
 });
