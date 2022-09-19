@@ -2,7 +2,6 @@
   "manifest_version": 3,
   "name": "GoogleMeetAutoCreator",
   "version": "1.0.0",
-  "default_locale": "ja_JP",
   "description": "Googleカレンダーで予定を作ると自動でGoogle MeetのビデオURLを作成するChrome拡張",
   "content_scripts": [{
     "matches": ["https://calendar.google.com/calendar/*"],
